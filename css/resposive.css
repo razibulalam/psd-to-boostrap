@@ -1,0 +1,171 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner-section {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 0px 15px;
+}
+ 
+  .banner-section .content h1 {
+    font-size: 50px;
+}
+.banner-section .content h2 {
+  width: 100%;
+  font-size: 23px;
+}
+.banner-section .content .underline {
+  margin: 25px auto 0px;
+  margin-bottom: 30px;
+}
+.banner-section .content p {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 376px;
+  border-radius: 0px !important;
+}
+
+.social-section {
+  padding: 12px 15px;
+  text-align: center;
+}
+.social-section .social-icons ul li a i {
+  font-size: 35px;
+}
+.social-section .social-icons {
+  text-align: center;
+}
+.social-section .social-icons ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.tab-section {
+  padding: 50px 15px;
+}
+.btns {
+  padding: 30px 50px 50px;
+}
+.tab-section .tab-right {
+  text-align: center;
+  margin-top: 35px;
+}
+.list-section {
+  padding: 50px 15px;
+}
+.list-section .left img{
+  width: 100%;
+}
+.standard-section {
+  padding: 50px 15px 30px;
+  text-align: center;
+}
+.underline-l {
+  margin: 30px auto;
+}
+.s-p {
+  width: 100%;
+}
+.standard-section .stand-right img{
+  width: 100%;
+}
+.why-section {
+  width: 100%;
+  padding: 30px 15px;
+}
+.why-section .why h2 {
+  font-size: 30px;
+}
+.why-section .why-inner i {
+  font-size: 30px;
+  padding: 20px;
+}
+.price-section {
+  padding: 60px 15px 0px;
+}
+.price-section .card {
+  margin-bottom: 50px;
+}
+.what-section {
+  padding: 50px 15px 10px;
+}
+.what-section h2 {
+  font-size: 30px;
+}
+.style-section {
+  padding: 50px 15px;
+}
+.form-section {
+  padding: 50px 15px 25px;
+}
+.footer-section .foot-inner ul li i {
+  font-size: 30px;
+}
+.footer-section .foot-inner ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+  /* CSS */
+  
+}
